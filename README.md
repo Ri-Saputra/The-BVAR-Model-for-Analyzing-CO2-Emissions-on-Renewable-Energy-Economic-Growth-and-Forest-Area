@@ -22,10 +22,13 @@ The relationship between environmental degradation, energy consumption, and econ
 Unlike standard VAR models, the BVAR approach incorporates prior information (priors) to handle over-parameterization and improve forecasting accuracy, especially in datasets with limited time-series observations.
 
 ### 🔑 Key Findings
-* **Renewable Energy:** Demonstrated a significant role in mitigating CO2 emissions in the long run.
-* **Forest Area:** Acts as a crucial carbon sink, negatively correlated with emissions.
-* **Economic Growth:** The study investigates the existence of the Environmental Kuznets Curve (EKC) hypothesis within the observed period.
 
+Based on the BVAR model projections and analysis, this study highlights specific trends and policy implications:
+
+* **📈 Future Projections (The Warning):** The model predicts a concerning trend where **CO2 emissions and Economic Growth (GDP)** are set to increase in the coming years, while **Forest Area and Renewable Energy Consumption** are projected to decrease significantly.
+* **🌲 Role of Natural Resources:** Forest area is confirmed as a critical natural carbon sink. The decline in forest area due to illegal logging and burning is a major driver of environmental degradation.
+* **⚡ Renewable Energy Gap:** While renewable energy is proven to be environmentally friendly, its consumption is projected to decline, contradicting the need for sustainable transition.
+* **🏛️ Policy Urgency:** Urgent intervention is required to decouple economic growth from environmental damage, specifically through stricter anti-deforestation laws and aggressive incentives for renewable energy adoption.
 ---
 
 ## 📊 Methodology & Data
@@ -33,7 +36,6 @@ Unlike standard VAR models, the BVAR approach incorporates prior information (pr
 ### The Model
 We utilize the **Minnesota Prior** within the BVAR framework to estimate the coefficients. The analysis includes:
 * **Impulse Response Functions (IRF):** To trace the effect of a one-standard-deviation shock to one of the innovations on current and future values of the endogenous variables.
-* **Forecast Error Variance Decomposition (FEVD):** To determine how much of the forecast error variance of each variable can be explained by exogenous shocks to the other variables.
 
 ## 📉 Data Source
 
